@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head link="styles.css">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Notable&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kaushan+Script&family=Lobster&display=swap" rel="stylesheet">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <meta charset="utf-8">
     <title>COLLEGE INFORMATION</title>
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">SVCE</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Info</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+    <div class="main">
 <h3><a href= "//http:svcengg.com" target="blank"> SVCE</a></h3>
-<img src="svce.jpeg">
+<center><img src="svce.jpeg" alt="profile picture" height="300" id="displaypicture"></center>
  <p><center>Most precious Institutions in Karnataka<br>
    Has been a pioneer in the field of Education for many years,excellency<br>
-   in imparting the knowledge.</center></P>
+   in imparting the knowledge.</center></p>
+  <center><button type="button" class="btn btn-secondary">SVCE</button></center>
+ </div>
    <hr>
-   <h4>UNDERGRADUATE COURSES</h4>
-   <div class="ul">
+    <div class="UG">
+   <h4><U><I>UNDERGRADUATE COURSES</I></U></h4>
+   <ol>
      <li>CSE</li>
-     <li>ISE</li>
      <li>EEE</li>
+     <li>ISE</li>
      <li>ECE</li>
      <li>CVE</li>
-     <li>MECHATRONICS</li>
-   </ul>
+     <li>MTE</li>
+   </ol>
+ </div>
    <hr>
-   <h4>POST GRADUATE COURSES</h4>
-   <div class="ol">
+   <div class="PG";
+ <h4><U><I>POSTGRADUATE COURSES</I></U></h4>
+   <ol>
      <li>MBA</li>
      <li>PHD</li>
   </ol>
+</div>
   <hr>
-  <h4>CONTACT INFO</h4>
+  <div class="CI">
+  <h4><U><I>CONTACT INFO</I></U></h4>
   <table cellspacing="15">
     <tr>
       <td>Contact No.</td>
@@ -39,8 +79,10 @@
          Road,Bengaluru-562157</td>
     </tr>
   </table>
+</div>
   <hr>
-  <h4> PERSONAL INFO<h4>
+  <div class="PI">
+  <h4><U><I> PERSONAL INFO</I></U><h4>
   <form class="CONTACT-INFO" action="index.html" method="post">
     <label for="Name">Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input type="text" name="Name" id="Name" placeholder="Name"><br>
@@ -49,11 +91,15 @@
       <label for="Email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="text" name="Email" id="Email" placeholder="Email"><br>
       <label for="Message">Message:</label><br>
-    <textarea name="Message" rows="8",cols="80" placeholder="Message"></textarea>
+    <textarea name="Message" rows="6",cols="160" placeholder="Message"></textarea>
     <button type="submit" name="button">SEND</button>
-
-    <h3>THANK YOU</h3>
-    <h2>Admissions are open for Eligible Students</h2>
+  </div>
+  <div class="TY">
+<h2><marquee  direction="right" >THANK YOU</marquee></h2>
+</div>
+<div class="line">
+<h3><marquee direction="left">Admissions are available for Eligible Students</marquee></h3>
+</div>
 
   </body>
 </html>

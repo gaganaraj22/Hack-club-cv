@@ -1,4 +1,59 @@
-
+.main
 {
-  background-color: #b5ced8;
+  background-color: #aacfcf !important;
+  font-family: 'Piedra', cursive !important;
+  font-size: 40px !important;
+  color:#1d1b38 !important;
+}
+#displaypicture
+{
+  border-radius: 100%;
+}
+body{
+  background-color: #f1d1d1 !important;
+}
+.UG,.PG{
+background-color: #c3b8c6  !important;
+font-family: 'Notable', sans-serif;
+font-size: 20px !important;
+color: #0d4241 !important;
+padding:5%;
+text-align: center;
+}
+.CI{
+  background-color: #f6f578 !important;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 20px !important;
+color: #45046a !important;
+padding:5%;
+}
+.PG{
+    background-color: #b6eb7a !important;
+  }
+.PG ol{
+  list-style:decimal-leading-zero;
+  list-style-position: inside;
+}
+.UG ol{
+    list-style:decimal-leading-zero;
+    list-style-position:inside;
+}
+.PI{
+  background-color: #5b8c5a !important;
+  font-family: 'Lobster', cursive;
+  padding: 5%;
+}
+.TY{
+  background-color:#222831 !important;
+   font-family: 'Kaushan Script', cursive;
+  color:#eeeeee !important;
+  font-size: 15px;
+  padding: 3%;
+}
+.line{
+  background-color: #543864 !important;
+  font-family: 'Fredoka One', cursive;
+  color: #f4ea8e !important;
+  font-size: 30px;
+  padding: 3%;
 }
